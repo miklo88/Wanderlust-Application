@@ -1,0 +1,45 @@
+.HomePage {
+  min-width: 300px;
+  min-height: 400px;
+  max-width: 1024px;
+  max-height: 800px;
+  background-image: url(img/wanderlustv1.5.jpg);
+  background-repeat: no-repeat;
+  background-size: stretch;
+  /* height: 2000px; */
+  width: 1000px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.CTA {
+  height: 800px;
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+.cardWrapper {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+.LOGO-content h1 {
+  /* font-family: Helvetica Neue, monospace; */
+  font-size: 10em;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+.Footer {
+  height: 250px;
+  width: 100%;
+  background-color: yellow;
+}
