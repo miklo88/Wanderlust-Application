@@ -3,6 +3,8 @@ import React from "react";
 // import { BrowswerRouter as Router } from "react-router-dom";
 
 // import { Router } from "./components/Router";
+import PersonList from "./components/Router/Router";
+import CardList from "./components/Router/GetAPI";
 // import CTA from "./components/CTA/Cta";
 import Nav from "./components/Navigation/Navigation";
 // import Blog from "./src/components/Blog/Blog";
@@ -24,7 +26,8 @@ import "./components/SignIn/index.css";
 function App() {
   return (
     <main className="HomePage">
-      {/* <Router /> */}
+      <PersonList />
+      <CardList />
       <Nav />
       
       {/* <SignIn /> */}
