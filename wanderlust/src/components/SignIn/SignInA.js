@@ -25,6 +25,10 @@ export const Form = props => {
     };
     
 	return (
+		<div className="CTA">
+		<div className="LOGO-content"> 
+			<h1>Sign Up</h1>
+		</div>
 		<form onSubmit={handleSubmit}>
 			<TextField
 				name="name"
@@ -101,12 +105,13 @@ export const Form = props => {
 				type="submit"
 				fullWidth
 				variant="raised"
-				color="primary"
+				color="inherit"
 				disabled={!isValid}
 			>
-				Sign Up
+				Create
 			</Button>
             
 		</form>
+		</div>
 	);
 };

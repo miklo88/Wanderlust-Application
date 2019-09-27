@@ -3,15 +3,15 @@ import React from "react";
 // import { BrowswerRouter as Router } from "react-router-dom";
 
 // import { Router } from "./components/Router";
-import CTA from "./components/CTA/CTA";
+// import CTA from "./components/CTA/Cta";
 import Nav from "./components/Navigation/Navigation";
 // import Blog from "./src/components/Blog/Blog";
-// import NavTabs from "./components/TabNavigation";
+import NavTabs from "./components/Navigation/TabNavigation";
 // import ExperiencesCard from "./src/components/Experiences/ExperiencesCard";
 import Footer from "./components/Footer/Footer";
 // import SignIn from "./components/SignIn/SignIn";
 // import SignUp from "./components/SignUp/SignUp";
-import InputForm from "./components/SignIn/index";
+// import InputForm from "./components/SignIn/index";
 
 import "typeface-roboto";
 
@@ -26,12 +26,12 @@ function App() {
     <main className="HomePage">
       {/* <Router /> */}
       <Nav />
-      {/* <SignIn /> */}
       
+      {/* <SignIn /> */}
       {/* <SignUp /> */}
-      {/* <NavTabs /> */}
-      <CTA />
-      <InputForm />
+      {/* <CTA /> */}
+      <NavTabs />
+      {/* <InputForm /> */}
 
       {/* <ExperiencesCard /> */}
       {/* <Blog /> */}
@@ -41,3 +41,6 @@ function App() {
 }
 
 export default App;
+
+
+// git request and post request . 

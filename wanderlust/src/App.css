@@ -3,19 +3,29 @@
   min-height: 400px;
   max-width: 1024px;
   max-height: 800px;
-  background-image: url(img/wanderlustv1.5.jpg);
-  background-repeat: no-repeat;
-  background-size: stretch;
-  /* height: 2000px; */
-  width: 1000px;
+  width: 100%;
   padding: 0 auto;
   margin: 0 auto;
 }
 .CTA {
-  height: 800px;
+  height: 500px;
   width: 100%;
+  background-image: url(img/wanderlustv1.7.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 5%;
   margin: auto;
-  padding: auto;
+}
+.LOGO-content h1, h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4em;
+  font-weight: 200;
+  opacity: 0.9;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
 }
 .cardWrapper {
   display: flex;
@@ -25,19 +35,24 @@
   display: inline-block;
   justify-content: center;
   align-items: center;
+  padding: 10px;
   margin: auto;
+
+}
+.cardWrapperCTA {
+  height: 300px;
+  width: 100%;
+  background-image: url(img/wanderlustv2.0.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
   padding: auto;
+  margin: auto;
 }
-.LOGO-content h1 {
-  /* font-family: Helvetica Neue, monospace; */
-  font-size: 10em;
-  font-weight: 900;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 5%;
+.wrappepdCard {
+  padding: 20px;
 }
+
+
 .Footer {
   height: 250px;
   width: 100%;
