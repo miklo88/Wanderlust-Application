@@ -21,6 +21,7 @@ export default class CardList extends React.Component {
       <ul>
         { this.state.cards.map(card => <li>{card.name}</li>)}
       </ul>
+      
     )
   }
 }

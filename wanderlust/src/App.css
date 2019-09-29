@@ -19,7 +19,7 @@
 .LOGO-content h1, h4 {
   font-family: 'Quicksand', sans-serif;
   font-size: 4em;
-  font-weight: 200;
+  font-weight: 600;
   opacity: 0.9;
   color: white;
   display: flex;
@@ -40,9 +40,9 @@
 
 }
 .cardWrapperCTA {
-  height: 300px;
+  height: 600px;
   width: 100%;
-  background-image: url(img/wanderlustv2.0.jpg);
+  background-image: url(img/dream.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   padding: auto;
