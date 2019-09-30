@@ -10,6 +10,7 @@ import Box from "@material-ui/core/Box";
 // import SignIn from "./components/SignIn/SignIn";
 // import SignUp from "./components/SignUp/SignUp";
 // import ExperiencesCard from "../Experiences/ExperiencesCard";
+import Experience from "../Experiences/Experience";
 import InputForm from "../SignIn/index";
 // import CTA from "../CTA/Cta";
 
@@ -91,10 +92,10 @@ export default function NavTabs() {
         <InputForm />
       </TabPanel>
       <TabPanel value={value} index={0}>
-        {/* <ExperiencesCard /> */}
+      <Experience />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        {/* <CreateExperience /> */}
+      <Experience />
       </TabPanel>
       
     </div>
