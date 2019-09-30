@@ -10,7 +10,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Link from '@material-ui/core/Link';
-
+import SearchForm from '../Search/SearchForm';
 // import "../App.css";
 
 const useStyles = makeStyles(theme => ({
@@ -40,12 +40,13 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static" color="inherit">
         <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" href="#contained-buttons">
+          {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" href="#contained-buttons">
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
           <Typography variant="headline" className={classes.title}>
             Wanderlust
           </Typography>
+          <SearchForm />
           <Button color="inherit" component="button">
           <Link
               component="button"
