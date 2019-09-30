@@ -13,7 +13,7 @@ import NavTabs from "./components/Navigation/TabNavigation";
 import Footer from "./components/Footer/Footer";
 // import SignIn from "./components/SignIn/SignIn";
 // import SignUp from "./components/SignUp/SignUp";
-import CharacterList from "./components/Experiences/ExperienceUpload";
+// import CharacterList from "./components/Experiences/ExperienceUpload";
 import "typeface-roboto";
 
 import "./App.css";
@@ -26,7 +26,7 @@ function App() {
       {/* <PersonList /> */}
       {/* <CardList />  */}
       <Nav />
-      <CharacterList />
+      {/* <CharacterList /> */}
       {/* <SignIn /> */}
       {/* <SignUp /> */}
       {/* <CTA /> */}
