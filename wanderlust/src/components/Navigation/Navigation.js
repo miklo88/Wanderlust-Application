@@ -11,9 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Link from '@material-ui/core/Link';
 
-
 // import "../App.css";
-
 
 const useStyles = makeStyles(theme => ({
   palette: {
@@ -88,8 +86,6 @@ export default function ButtonAppBar() {
         type="file"
       /> 
        */}
-      {/* <SignIn />
-      <SignUp />   */}
     </div>
   );
 }
