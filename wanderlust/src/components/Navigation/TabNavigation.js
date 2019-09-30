@@ -12,7 +12,7 @@ import Box from "@material-ui/core/Box";
 // import ExperiencesCard from "../Experiences/ExperiencesCard";
 import Experience from "../Experiences/Experience";
 import InputForm from "../SignIn/index";
-// import CTA from "../CTA/Cta";
+import CTA from "../CTA/CTA";
 
 
 function TabPanel(props) {
@@ -82,19 +82,20 @@ export default function NavTabs() {
           aria-label="nav tabs example"
         >
           <LinkTab label="Explore" href="/spam" {...a11yProps(0)} />
-          <LinkTab label="Get Started" href="/spam" {...a11yProps(1)} />
-          <LinkTab label="Create Experiences" href="/spam" {...a11yProps(2)} />
+          {/* <LinkTab label="Get Started" href="/spam" {...a11yProps(1)} /> */}
+          <LinkTab label="Create Experiences" href="/spam" {...a11yProps(1)} />
         </Tabs>
       </AppBar>
       
       {/* tab panels with different links/ sub nav */}
-      <TabPanel value={value} index={1}>
+      {/* <TabPanel value={value} index={1}>
         <InputForm />
-      </TabPanel>
+      </TabPanel> */}
       <TabPanel value={value} index={0}>
+      <CTA />
       <Experience />
       </TabPanel>
-      <TabPanel value={value} index={2}>
+      <TabPanel value={value} index={1}>
       <Experience />
       </TabPanel>
       
