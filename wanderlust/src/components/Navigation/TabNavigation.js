@@ -7,7 +7,6 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 
-// import SignIn from "./components/SignIn/SignIn";
 // import SignUp from "./components/SignUp/SignUp";
 // import ExperiencesCard from "../Experiences/ExperiencesCard";
 import Experience from "../Experiences/Experience";
@@ -93,6 +92,7 @@ export default function NavTabs() {
       </TabPanel>
       <TabPanel value={value} index={1}>
       <InputForm />
+      
       </TabPanel>
       <TabPanel value={value} index={2}>
       <Experience />
