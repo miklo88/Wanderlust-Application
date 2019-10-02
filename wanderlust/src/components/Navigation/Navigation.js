@@ -47,7 +47,7 @@ export default function ButtonAppBar() {
             Wanderlust
           </Typography>
           <SearchForm />
-          <Button color="inherit" component="button">
+          {/* <Button color="inherit" component="button">
           <Link
               component="button"
               color="inherit"
@@ -72,7 +72,7 @@ export default function ButtonAppBar() {
             >
               Sign Up
             </Link>
-          </Button>
+          </Button> */}
 
         </Toolbar>
       </AppBar>

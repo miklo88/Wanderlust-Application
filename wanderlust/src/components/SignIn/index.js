@@ -12,8 +12,8 @@ const styles = theme => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    padding: `${theme.spacing.unit * 5}px ${theme.spacing.unit * 5}px ${theme
-      .spacing.unit * 5}px`
+    padding: `${theme.spacing.unit * 8}px ${theme.spacing.unit * 8}px ${theme
+      .spacing.unit * 8}px`
   },
   container: {
     maxWidth: "200px"
